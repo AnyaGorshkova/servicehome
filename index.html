@@ -287,9 +287,34 @@
       <div class="offers__title offers__title--bigSize section__title">Остались вопросы? Пишите!</div>
       <div style="text-align: center;">Здесь будет контент</div>
     </div>
-    <div class="section begin-repair">
-      <div class="offers__title offers__title--bigSize section__title">Наши контакты</div>
-      <div style="text-align: center;">Здесь будет контент</div>
-    </div>
+    <section class="section contacts">
+      <div class="contacts__part contacts__part-content">
+        <h2 class="offers__title offers__title--bigSize offers__title--white">Наши контакты</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">г. Санкт-Петербург, ул. Громова, д. 4 БЦ "Громов" оф. 214-1</li>
+          <li class="contacts__item">+7-962-717-83-45, +7-905-256-63-08</li>
+          <li class="contacts__item">gennadyi@mail.ru</li>
+        </ul>
+      </div>
+      <div class="contacts__part contacts__part-map">
+        <div id="map"></div>
+        <script>var map;
+var markers =[];
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 59.9342802, lng:  30.3350986},
+    zoom: 11,
+});
+var myMarker = {lat: 59.922092, lng:  30.411328};
+var marker = new google.maps.Marker({
+	position: myMarker,
+	map: map,
+	title: "Service Home"
+});
+}
+        </script>
+      </div>
+    </section>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnDSBCbFMJ9b23mKO_oRZMOViPONIm92M&amp;callback=initMap"></script>
   </body>
 </html>
