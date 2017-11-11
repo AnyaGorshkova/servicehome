@@ -17,12 +17,20 @@ function initMap() {
     center: {lat: 59.9342802, lng:  30.3350986},
     zoom: 11,
 });
+
 var myMarker = {lat: 59.922092, lng:  30.411328};
 var marker = new google.maps.Marker({
 	position: myMarker,
 	map: map,
 	title: "Service Home"
 });
+var infowindow = new google.maps.InfoWindow({
+    content: 'Мы находимся здесь'
+  });
+
+infowindow.open(map, marker);
+
+
 }
     </script>
   </div>

@@ -275,6 +275,16 @@
       </ul>
       <div class="addition__call-zone"><span>Вы экономите 5000 рублей! </span><a class="main-header__button main-header__button--redColor" href="#">Оформить заявку</a></div>
     </div>
+    <section class="section materials">
+      <h2 class="offers__title offers__title--bigSize section__title">Используем только качественные материалы</h2>
+      <ul class="materials__list">
+        <li class="materials__item"><img class="materials__img" src="assets/img/castorama.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/obi.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/leroy.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/maxidom.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/rauta.png"></li>
+      </ul>
+    </section>
     <div class="section begin-repair">
       <div class="offers__title offers__title--bigSize section__title">Отзывы наших клиентов</div>
       <div style="text-align: center;">Здесь будет контент</div>
@@ -305,12 +315,20 @@ function initMap() {
     center: {lat: 59.9342802, lng:  30.3350986},
     zoom: 11,
 });
+
 var myMarker = {lat: 59.922092, lng:  30.411328};
 var marker = new google.maps.Marker({
 	position: myMarker,
 	map: map,
 	title: "Service Home"
 });
+var infowindow = new google.maps.InfoWindow({
+    content: 'Мы находимся здесь'
+  });
+
+infowindow.open(map, marker);
+
+
 }
         </script>
       </div>
