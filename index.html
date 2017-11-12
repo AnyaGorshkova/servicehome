@@ -22,6 +22,12 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__window">
+        <p>Оставьте заявку и мы свяжемся с Вами втечение 15 минут</p>
+      </div>
+    </div>
     <div class="page-pagination">
       <div class="page-pagination__item page-pagination__item--active"></div>
       <div class="page-pagination__item"></div>
@@ -41,7 +47,7 @@
         </div>
         <div class="main-header__logo"></div>
         <div class="main-header__descr">Выполняем ремонт под ключ от 2000 рублей за квадратный метр*</div>
-        <div class="main-header__buttons-wrap"><a class="main-header__button" href="#">Вызвать замерщика</a><a class="main-header__button" href="#">Рассчитать ремонт</a></div>
+        <div class="main-header__buttons-wrap"><a class="main-header__button" href="#">Вызвать замерщика</a><a class="main-header__button" href="#calc-repair">Рaccчитать ремонт</a></div>
         <div class="scroll-down"></div>
       </div>
       <div class="main-header__bg"></div>
@@ -218,7 +224,7 @@
       <div class="offers__title offers__title--bigSize section__title">Доступные цены</div>
       <div style="text-align: center;">Здесь будет контент</div>
     </div>
-    <section class="section calc-repair">
+    <section class="section calc-repair" id="calc-repair">
       <h2 class="offers__title offers__title--bigSize section__title">Рассчитай свой ремонт</h2>
       <div class="slidecontainer">
         <p>50 м<sup>2</sup></p>
@@ -277,18 +283,33 @@
     </div>
     <section class="section materials">
       <h2 class="offers__title offers__title--bigSize section__title">Используем только качественные материалы</h2>
-      <ul class="materials__list">
-        <li class="materials__item"><img class="materials__img" src="assets/img/castorama.png"></li>
-        <li class="materials__item"><img class="materials__img" src="assets/img/obi.png"></li>
-        <li class="materials__item"><img class="materials__img" src="assets/img/leroy.png"></li>
-        <li class="materials__item"><img class="materials__img" src="assets/img/maxidom.png"></li>
-        <li class="materials__item"><img class="materials__img" src="assets/img/rauta.png"></li>
-      </ul>
+      <div class="materials__slider"><span class="materials__slider-button"></span>
+        <ul class="materials__list">
+          <li class="materials__item"><img class="materials__img" src="assets/img/castorama.png"></li>
+          <li class="materials__item"><img class="materials__img" src="assets/img/obi.png"></li>
+          <li class="materials__item"><img class="materials__img" src="assets/img/leroy.png"></li>
+          <li class="materials__item"><img class="materials__img" src="assets/img/maxidom.png"></li>
+          <li class="materials__item"><img class="materials__img" src="assets/img/rauta.png"></li>
+        </ul><span class="materials__slider-button"></span>
+      </div>
     </section>
-    <div class="section begin-repair">
-      <div class="offers__title offers__title--bigSize section__title">Отзывы наших клиентов</div>
-      <div style="text-align: center;">Здесь будет контент</div>
-    </div>
+    <section class="section rewiews">
+      <h2 class="offers__title offers__title--bigSize section__title">Отзывы наших клиентов</h2>
+      <div class="rewiews__content">
+        <div class="rewiews__text rewiew">
+          <div class="rewiew__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ex laudantium nostrum in voluptatum aliquam exercitationem! Mollitia error qui tempora sint consectetur rerum eum vero fugit in, voluptatem laborum! Magnam?</div>
+          <div class="rewiew__author">
+            <div class="rewiew__author-avatar"><img class="rewiew__author-img" src="assets/img/ulia.jpg"></div>
+            <div class="rewiew__author-name">Юлия, индивидуальный предприниматель</div>
+          </div>
+        </div>
+        <div class="rewiews__photo">
+          <div class="rewiews__detil" title="Ламинат"></div>
+          <div class="rewiews__detil" title="Перегородка из гипсокартона"></div>
+          <div class="rewiews__detil" title="Навесной потолок"></div>
+        </div>
+      </div>
+    </section>
     <div class="section begin-repair">
       <div class="offers__title offers__title--bigSize section__title">Вопросы, которые нам задают</div>
       <div style="text-align: center;">Здесь будет контент</div>
