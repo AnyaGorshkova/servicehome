@@ -23,9 +23,21 @@
   </head>
   <body>
     <div class="modal">
-      <div class="modal__overlay"></div>
-      <div class="modal__window">
-        <p>Оставьте заявку и мы свяжемся с Вами втечение 15 минут</p>
+      <div class="modal__overlay">
+        <div class="modal__window">
+          <div class="close">x</div>
+          <p>Оставьте заявку и мы свяжемся с Вами в течение 15 минут</p>
+          <form action="">
+            <label for="tel">
+              <input type="text" name="tel" placeholder="Ваше Имя">
+            </label>
+            <label for="email">
+              <input type="text" name="email" placeholder="Номер телефона">
+            </label>
+            <input type="checkbox">
+            <label class="check" for="check">Соглашаюсь на обработку персональных данных</label><a class="main-header__button" href="#">Отправить заявку</a>
+          </form>
+        </div>
       </div>
     </div>
     <div class="page-pagination">
@@ -36,21 +48,33 @@
       <div class="page-pagination__item"></div>
     </div>
     <header class="main-header">
-      <div class="main-header__content">
-        <div class="main-header__top">
-          <div class="main-header__nav-button"></div>
-          <ul class="main-header__contacts">
-            <li>+7 921 333 33 33</li>
-            <li></li>
-            <li></li>
+      <div class="main-header__top"><a class="main-header__logo" href="#">
+          <div class="main-header__logo-img"></div>
+          <div class="main-header__logo-title"><span>интерьер</span><span>сервис</span></div></a>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Услуги</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Портфолио</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Цены</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Калькулятор</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Акции</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Контакты</a></li>
           </ul>
-        </div>
-        <div class="main-header__logo"></div>
-        <div class="main-header__descr">Выполняем ремонт под ключ от 2000 рублей за квадратный метр*</div>
-        <div class="main-header__buttons-wrap"><a class="main-header__button" href="#">Вызвать замерщика</a><a class="main-header__button" href="#calc-repair">Рaccчитать ремонт</a></div>
-        <div class="scroll-down"></div>
+        </nav>
+        <ul class="main-header__contacts">
+          <li>+7(998)999-99-99</li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
-      <div class="main-header__bg"></div>
+      <div class="main-header__content">
+        <div class="main-header__bg"><img class="main-header__img" src="assets/img/mainbg.png"></div>
+        <div class="main-header__text"> 
+          <div class="main-header__descr">20 лет ремонтируем квартиры <span>"под ключ"</span> в Санкт-Петербурге</div>
+          <div class="main-header__buttons-wrap"><a class="main-header__button" href="#calc-repair">Рaccчитать ремонт</a><a class="main-header__button" href="#">Вызвать замерщика</a></div>
+        </div>
+      </div>
+      <div class="scroll-down"></div>
     </header>
     <section class="section offers">
       <div class="offers__part">
@@ -89,28 +113,33 @@
       <ul class="services__list">
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Устанавливаем сантехнику</div>
-          <div class="services__button-more">Подробнее</div>
+          <div class="services__title">Устанавливаем сантехнику
+            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
+          </div>
         </li>
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Устанавливаем кондиционеры</div>
-          <div class="services__button-more">Подробнее</div>
+          <div class="services__title">Устанавливаем кондиционеры
+            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
+          </div>
         </li>
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Красим стены</div>
-          <div class="services__button-more">Подробнее</div>
+          <div class="services__title">Красим стены
+            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
+          </div>
         </li>
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Выравниваем стены</div>
-          <div class="services__button-more">Подробнее</div>
+          <div class="services__title">Выравниваем стены
+            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
+          </div>
         </li>
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Перепланируем помещение</div>
-          <div class="services__button-more">Подробнее</div>
+          <div class="services__title">Перепланируем помещение
+            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
+          </div>
         </li>
       </ul>
     </section>
@@ -354,6 +383,6 @@ infowindow.open(map, marker);
         </script>
       </div>
     </section>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnDSBCbFMJ9b23mKO_oRZMOViPONIm92M&amp;callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Ncosm7KrFjC4N1yWHqTKavjJu4Jucr4&amp;callback=initMap"></script>
   </body>
 </html>
