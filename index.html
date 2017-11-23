@@ -23,21 +23,19 @@
   </head>
   <body>
     <div class="modal">
-      <div class="modal__overlay">
-        <div class="modal__window">
-          <div class="close">x</div>
-          <p>Оставьте заявку и мы свяжемся с Вами в течение 15 минут</p>
-          <form action="">
-            <label for="tel">
-              <input type="text" name="tel" placeholder="Ваше Имя">
-            </label>
-            <label for="email">
-              <input type="text" name="email" placeholder="Номер телефона">
-            </label>
-            <input type="checkbox">
-            <label class="check" for="check">Соглашаюсь на обработку персональных данных</label><a class="main-header__button" href="#">Отправить заявку</a>
-          </form>
-        </div>
+      <div class="modal__window">
+        <div class="close"></div>
+        <p>Оставьте заявку и мы свяжемся с Вами в течение 15 минут</p>
+        <form action="">
+          <label for="name">
+            <input class="modal__input" type="text" name="name" placeholder="Ваше Имя">
+          </label>
+          <label for="phone">
+            <input class="modal__input" type="tel" name="phone" placeholder="Номер телефона">
+          </label>
+          <input type="checkbox">
+          <label class="check" for="check">Соглашаюсь на обработку персональных данных</label>
+        </form><a class="main-header__button" href="#">Отправить заявку</a>
       </div>
     </div>
     <div class="page-pagination">
@@ -145,7 +143,41 @@
     </section>
     <section class="section advantages">
       <h2 class="offers__title offers__title--bigSize section__title">Плюсов много</h2>
-      <div style="text-align: center;">Здесь будет контент</div>
+      <div class="advantages__content">
+        <div class="advantages__part">
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <div class="advantages__title">Гарантия 3 года</div>
+              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__title">Дизайн проекты</div>
+              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__title">Экономия</div>
+              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+            </li>
+          </ul>
+        </div>
+        <div class="advantages__part advantages__part--bg"></div>
+        <div class="advantages__part">
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <div class="advantages__title">Сервис превыше всего</div>
+              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__title">Согласование перепланировки</div>
+              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__title">Опыт</div>
+              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section class="section steps">
       <h2 class="offers__title offers__title--bigSize offers__title--white">С чего начать</h2>
@@ -226,6 +258,9 @@
           <source src="assets/img/video/example.webm" type="video/webm">
           <source src="assets/img/video/example.mp4" type="video/mp4">
         </video>
+        <div class="staff__video-control">
+          <div class="staff__video-play"></div>
+        </div>
       </div>
       <div class="staff__part staff__part--content">
         <h2 class="section__title">Наши мастера - команда профессионалов</h2>
@@ -256,8 +291,8 @@
     <section class="section calc-repair" id="calc-repair">
       <h2 class="offers__title offers__title--bigSize section__title">Рассчитай свой ремонт</h2>
       <div class="slidecontainer">
-        <p>50 м<sup>2</sup></p>
-        <input class="slider" type="range" min="1" max="100" value="50">
+        <p class="slideValue">50 м<sup>2</sup></p>
+        <input class="slider" type="range" min="1" max="100" value="10">
       </div>
       <div class="rooms">
         <div class="rooms__title">количество комнат:</div>
@@ -400,6 +435,6 @@ infowindow.open(map, marker);
         </script>
       </div>
     </section>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Ncosm7KrFjC4N1yWHqTKavjJu4Jucr4&amp;callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Ncosm7KrFjC4N1yWHqTKavjJu4Jucr4&amp;callback=initMap"> </script>
   </body>
 </html>
