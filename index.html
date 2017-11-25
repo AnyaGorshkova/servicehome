@@ -69,12 +69,13 @@
         <div class="main-header__bg"><img class="main-header__img" src="assets/img/mainbg.png"></div>
         <div class="main-header__text"> 
           <div class="main-header__descr">20 лет ремонтируем квартиры <span>"под ключ"</span> в Санкт-Петербурге</div>
-          <div class="main-header__buttons-wrap"><a class="main-header__button" href="#calc-repair">Рaccчитать ремонт</a><a class="main-header__button" href="#">Вызвать замерщика</a></div>
+          <div class="main-header__buttons-wrap"><a class="main-header__button" href="#calc-repair">Рaccчитать ремонт</a>
+            <button class="main-header__button button-order">Вызвать замерщика</button>
+          </div>
         </div>
-      </div>
-      <div class="scroll-down"></div>
+      </div><a class="scroll-down" href="#offers"></a>
     </header>
-    <section class="section offers">
+    <section class="section offers" id="offers">
       <div class="offers__part">
         <div class="offers__title offers__title--redColor">только до 10 ноября</div>
         <div class="offers__descr">до конца акции осталось:</div>
@@ -103,7 +104,8 @@
           <li class="offers__descr-item">1. Заполните форму заявки</li>
           <li class="offers__descr-item">2. Назначьте удобное время</li>
           <li class="offers__descr-item">3. Получите скидку на ремонт</li>
-        </ul><a class="main-header__button main-header__button--redColor" href="#">Оформить заявку</a>
+        </ul>
+            <button class="main-header__button main-header__button_bg_red button-order">Оформить заявку</button>
       </div>
     </section>
     <section class="section services">
@@ -284,9 +286,64 @@
         </ul>
       </div>
     </section>
-    <div class="section begin-repair">
+    <div class="section prices">
       <div class="offers__title offers__title--bigSize section__title">Доступные цены</div>
-      <div style="text-align: center;">Здесь будет контент</div>
+      <ul class="prices__list">
+        <li class="prices__item prices-item">
+          <div class="prices-item__title">Косметический ремонт</div>
+          <div class="prices-item__price">3000 <span></span> / м<sup>2</sup></div>
+          <ul class="prices-item__options">
+            <li class="prices-item__option prices-item__option_not">Дизайн-проект</li>
+            <li class="prices-item__option prices-item__option_yes">Окраска стен</li>
+            <li class="prices-item__option prices-item__option_not">Грунтовка всех поверхностей</li>
+            <li class="prices-item__option prices-item__option_yes">Укладка напольного покрытия</li>
+            <li class="prices-item__option prices-item__option_yes">Монтаж плинтусов</li>
+            <li class="prices-item__option prices-item__option_yes">Покраска потолков</li>
+            <li class="prices-item__option prices-item__option_not">Замена ванной, раковины, унитаза</li>
+            <li class="prices-item__option prices-item__option_not">Натяжные потолки в санузлах</li>
+            <li class="prices-item__option prices-item__option_not">Электрофурнитура</li>
+            <li class="prices-item__option prices-item__option_yes">Вывоз мусора</li>
+            <li class="prices-item__option prices-item__option_yes">Клининг</li>
+          </ul>
+              <button class="main-header__button main-header__button_bg_red button-order">Оставить заявку</button>
+        </li>
+        <li class="prices__item prices-item">
+          <div class="prices-item__title">Капитальный ремонт</div>
+          <div class="prices-item__price">4000 <span></span> / м<sup>2</sup></div>
+          <ul class="prices-item__options">
+            <li class="prices-item__option prices-item__option_not">Дизайн-проект</li>
+            <li class="prices-item__option prices-item__option_yes">Окраска стен</li>
+            <li class="prices-item__option prices-item__option_yes">Грунтовка всех поверхностей</li>
+            <li class="prices-item__option prices-item__option_yes">Укладка напольного покрытия</li>
+            <li class="prices-item__option prices-item__option_yes">Монтаж плинтусов</li>
+            <li class="prices-item__option prices-item__option_yes">Покраска потолков</li>
+            <li class="prices-item__option prices-item__option_yes">Замена ванной, раковины, унитаза</li>
+            <li class="prices-item__option prices-item__option_yes">Натяжные потолки в санузлах</li>
+            <li class="prices-item__option prices-item__option_yes">Электрофурнитура</li>
+            <li class="prices-item__option prices-item__option_yes">Вывоз мусора</li>
+            <li class="prices-item__option prices-item__option_yes">Клининг</li>
+          </ul>
+              <button class="main-header__button main-header__button_bg_red button-order">Оставить заявку</button>
+        </li>
+        <li class="prices__item prices-item">
+          <div class="prices-item__title">Дизайнерский ремонт</div>
+          <div class="prices-item__price">5000 <span></span> / м<sup>2</sup></div>
+          <ul class="prices-item__options">
+            <li class="prices-item__option prices-item__option_yes">Дизайн-проект</li>
+            <li class="prices-item__option prices-item__option_yes">Окраска стен</li>
+            <li class="prices-item__option prices-item__option_yes">Грунтовка всех поверхностей</li>
+            <li class="prices-item__option prices-item__option_yes">Укладка напольного покрытия</li>
+            <li class="prices-item__option prices-item__option_yes">Монтаж плинтусов</li>
+            <li class="prices-item__option prices-item__option_yes">Покраска потолков</li>
+            <li class="prices-item__option prices-item__option_yes">Замена ванной, раковины, унитаза</li>
+            <li class="prices-item__option prices-item__option_yes">Натяжные потолки в санузлах</li>
+            <li class="prices-item__option prices-item__option_yes">Электрофурнитура</li>
+            <li class="prices-item__option prices-item__option_yes">Вывоз мусора</li>
+            <li class="prices-item__option prices-item__option_yes">Клининг</li>
+          </ul>
+              <button class="main-header__button main-header__button_bg_red button-order">Оставить заявку</button>
+        </li>
+      </ul>
     </div>
     <section class="section calc-repair" id="calc-repair">
       <h2 class="offers__title offers__title--bigSize section__title">Рассчитай свой ремонт</h2>
