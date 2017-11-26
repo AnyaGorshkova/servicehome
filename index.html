@@ -38,13 +38,6 @@
         </form><a class="main-header__button" href="#">Отправить заявку</a>
       </div>
     </div>
-    <div class="page-pagination">
-      <div class="page-pagination__item page-pagination__item--active"></div>
-      <div class="page-pagination__item"></div>
-      <div class="page-pagination__item"></div>
-      <div class="page-pagination__item"></div>
-      <div class="page-pagination__item"></div>
-    </div>
     <header class="main-header">
       <div class="main-header__top"><a class="main-header__logo" href="#">
           <div class="main-header__logo-img"></div>
@@ -60,9 +53,7 @@
           </ul>
         </nav>
         <ul class="main-header__contacts">
-          <li>+7(998)999-99-99</li>
-          <li></li>
-          <li></li>
+          <li>+7 (905) 256-63-08</li>
         </ul>
       </div>
       <div class="main-header__content">
@@ -75,37 +66,22 @@
         </div>
       </div><a class="scroll-down" href="#offers"></a>
     </header>
-    <section class="section offers" id="offers">
-      <div class="offers__part">
-        <div class="offers__title offers__title--redColor">только до 10 ноября</div>
-        <div class="offers__descr">до конца акции осталось:</div>
-        <ul class="offers__time">
-          <li class="offers__time-item">
-            <div class="offers__time-count">3</div>
-            <div class="offers__time-title">дня</div>
-          </li>
-          <li class="offers__time-item">
-            <div class="offers__time-count">14</div>
-            <div class="offers__time-title">часов</div>
-          </li>
-          <li class="offers__time-item">
-            <div class="offers__time-count">5</div>
-            <div class="offers__time-title">минут</div>
-          </li>
-          <li class="offers__time-item">
-            <div class="offers__time-count">39</div>
-            <div class="offers__time-title">секунд</div>
-          </li>
-        </ul>
-      </div>
-      <div class="offers__part">
-        <div class="offers__title">Вызовите замерщика и получите скидку 20%!</div>
-        <ul class="offers__descr-list">
-          <li class="offers__descr-item">1. Заполните форму заявки</li>
-          <li class="offers__descr-item">2. Назначьте удобное время</li>
-          <li class="offers__descr-item">3. Получите скидку на ремонт</li>
-        </ul>
-            <button class="main-header__button main-header__button_bg_red button-order">Оформить заявку</button>
+    <section class="section staff">
+      <h2 class="offers__title offers__title--bigSize section__title">О нас от первого лица	</h2>
+      <div class="container">
+        <div class="staff__part staff__part--video">
+          <video class="staff__video" poster="assets/img/poster.jpg">
+            <source src="assets/img/video/example.webm" type="video/webm">
+            <source src="assets/img/video/example.mp4" type="video/mp4">
+          </video>
+          <div class="staff__video-control">
+            <div class="staff__video-play"></div>
+          </div>
+        </div>
+        <div class="staff__part staff__part--content">
+          <p class="staff__text">Одним из главных преимуществ нашей компании является профессиональный внимательный подход ко всем этапам работ. Начиная с подготовительных работ, продолжая прокладкой необходимых инженерных коммуникаций и отделкой, необходимо ясное понимание конечного результата. Каждая квартира по своему уникальна и интересна. Закончив ремонт на очередном объекте мы с гордостью говорим: Работы выполнены ГРАМОТНО.</p>
+          <p class="staff__text">В нашем портфолио Вы найдете фото и описание некоторых законченных объектов. Мы ценим наших клиентов и хотя ремонт – это результат одновременно творческой, трудной работы нас рекомендуют своим знакомым и родственникам. Периодически обращаются за помощью повторно	</p>
+        </div>
       </div>
     </section>
     <section class="section services">
@@ -254,38 +230,6 @@
         </li>
       </ul>
     </section>
-    <section class="section staff">
-      <div class="staff__part staff__part--video">
-        <video class="staff__video">
-          <source src="assets/img/video/example.webm" type="video/webm">
-          <source src="assets/img/video/example.mp4" type="video/mp4">
-        </video>
-        <div class="staff__video-control">
-          <div class="staff__video-play"></div>
-        </div>
-      </div>
-      <div class="staff__part staff__part--content">
-        <h2 class="section__title">Наши мастера - команда профессионалов</h2>
-        <ul class="staff__list">
-          <li class="staff__item">
-            <div class="staff__img"></div>
-            <div class="staff__descr">Опыт</div>
-          </li>
-          <li class="staff__item">
-            <div class="staff__img"></div>
-            <div class="staff__descr">Высокая квалификация</div>
-          </li>
-          <li class="staff__item">
-            <div class="staff__img"></div>
-            <div class="staff__descr">Минимальные сроки без ущерба для качества</div>
-          </li>
-          <li class="staff__item">
-            <div class="staff__img"></div>
-            <div class="staff__descr">ещё что-нибудь</div>
-          </li>
-        </ul>
-      </div>
-    </section>
     <div class="section prices">
       <div class="offers__title offers__title--bigSize section__title">Доступные цены</div>
       <ul class="prices__list">
@@ -345,6 +289,30 @@
         </li>
       </ul>
     </div>
+    <section class="section offers" id="offers">
+      <div class="offers__title">только до 10 ноября</div>
+      <div class="offers__title">Вызовите замерщика и получите скидку 20%!</div>
+      <div class="offers__descr">до конца акции осталось:</div>
+      <ul class="offers__time">
+        <li class="offers__time-item">
+          <div class="offers__time-count">3</div>
+          <div class="offers__time-title">дня</div>
+        </li>
+        <li class="offers__time-item">
+          <div class="offers__time-count">14</div>
+          <div class="offers__time-title">часов</div>
+        </li>
+        <li class="offers__time-item">
+          <div class="offers__time-count">5</div>
+          <div class="offers__time-title">минут</div>
+        </li>
+        <li class="offers__time-item">
+          <div class="offers__time-count">39</div>
+          <div class="offers__time-title">секунд</div>
+        </li>
+      </ul>
+          <button class="main-header__button main-header__button_bg_red button-order">Оформить заявку</button>
+    </section>
     <section class="section calc-repair" id="calc-repair">
       <h2 class="offers__title offers__title--bigSize section__title">Рассчитай свой ремонт</h2>
       <div class="slidecontainer">
@@ -379,28 +347,24 @@
     </section>
     <div class="section addition">
       <div class="offers__title offers__title--bigSize section__title">Выгодное предложение!</div>
-      <div class="section__descr">Вы пришли к нам впервые? тогда мы выполним бесплатно:</div>
       <ul class="addition__list">
         <li class="addition__item">
           <div class="addition__img"></div>
-          <div class="addition__descr">Ознакомим с ассортиментом отделочных материалов </div>
-          <div class="addition__old-price">1000 <span></span></div>
-          <div class="addition__new-price">0 <span></span></div>
+          <div class="addition__descr">Ознакомим с ассортиментом отделочных материалов</div>
+          <div>По Вашему желанию и в удобное для Вас время на своем авто, провезем по 3-4 строительным гипермаркетам для выбора отделочных материалов.  </div>
         </li>
         <li class="addition__item">
           <div class="addition__img"></div>
-          <div class="addition__descr">Выполним замеры и составим смету </div>
-          <div class="addition__old-price">1000 <span></span></div>
-          <div class="addition__new-price">0 <span></span></div>
+          <div class="addition__descr">Закупим по минимальным ценам</div>
+          <div>Мы имеем для Вас MAX скидки от продавцов и производителей строительных и отделочных материалов!</div>
         </li>
         <li class="addition__item">
           <div class="addition__img"></div>
-          <div class="addition__descr">Сделаем уборку после ремонта </div>
-          <div class="addition__old-price">1000 <span></span></div>
-          <div class="addition__new-price">0 <span></span></div>
+          <div class="addition__descr">Избавим от уборки</div>
+          <div>Сделаем уборку после ремонта в ПОДАРОК!</div>
         </li>
       </ul>
-      <div class="addition__call-zone"><span>Вы экономите 5000 рублей! </span><a class="main-header__button main-header__button--redColor" href="#">Оформить заявку</a></div>
+      <div class="addition__call-zone"><a class="main-header__button main-header__button--redColor" href="#">Оформить заявку</a></div>
     </div>
     <section class="section materials">
       <h2 class="offers__title offers__title--bigSize section__title">Используем только качественные материалы</h2>
@@ -431,6 +395,11 @@
           <div class="rewiews__detil" title="Перегородка из гипсокартона"></div>
           <div class="rewiews__detil" title="Навесной потолок"></div>
         </div>
+      </div>
+      <div class="page-pagination page-pagination--linear">
+        <div class="page-pagination__item page-pagination__item--active"></div>
+        <div class="page-pagination__item"></div>
+        <div class="page-pagination__item"></div>
       </div>
     </section>
     <section class="section questions">
