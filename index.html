@@ -22,7 +22,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
-    <div class="modal">
+    <div class="modal order-modal">
       <div class="modal__window">
         <div class="close"></div>
         <p>Оставьте заявку и мы свяжемся с Вами в течение 15 минут</p>
@@ -36,6 +36,44 @@
           <input type="checkbox">
           <label class="check" for="check">Соглашаюсь на обработку персональных данных</label>
         </form><a class="main-header__button" href="#">Отправить заявку</a>
+      </div>
+    </div>
+    <div class="modal calc-modal">
+      <div class="modal__window">
+        <div class="close"></div>
+        <p>Получите подробную смету</p>
+        <div class="calc-modal__content">
+          <div class="calc-modal__check">
+            <ul class="calc-modal__list">
+              <li class="calc-modal__item">
+                <div class="calc-modal__title">Площадь квартиры:</div>
+                <div class="calc-modal__sq"></div>
+              </li>
+              <li class="calc-modal__item">
+                <div class="calc-modal__title">Количество комнат:</div>
+                <div class="calc-modal__rooms"></div>
+              </li>
+              <li class="calc-modal__item">
+                <div class="calc-modal__title">Тип ремонта:</div>
+                <div class="calc-modal__repair"></div>
+              </li>
+              <li class="calc-modal__item">
+                <div class="calc-modal__title">Стоимость:</div>
+                <div>от 50 000	<span></span></div>
+              </li>
+            </ul>
+          </div>
+          <form class="calc-modal__form" action="">
+            <label for="name">
+              <input class="modal__input" type="text" name="name" placeholder="Ваше Имя">
+            </label>
+            <label for="mail">
+              <input class="modal__input" type="email" name="mail" placeholder="Email">
+            </label>
+            <input type="checkbox">
+            <label class="check" for="check">Соглашаюсь на обработку персональных данных</label>
+          </form>
+        </div><a class="main-header__button" href="#">Получить смету</a>
       </div>
     </div>
     <header class="main-header">
@@ -195,37 +233,51 @@
       <ul class="portfolio__list">
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic1.png">
           <div class="portfolio__overlay">
-            <button class="portfolio__button"></button>
+            <p>Проект "Ирина"</p>
+            <p>Точная стоимость ремонта</p>
+            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="#">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic2.png">
           <div class="portfolio__overlay">
-            <button class="portfolio__button"></button>
+            <p>Проект "Ирина"</p>
+            <p>Точная стоимость ремонта</p>
+            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="#">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic3.png">
           <div class="portfolio__overlay">
-            <button class="portfolio__button"></button>
+            <p>Проект "Ирина"</p>
+            <p>Точная стоимость ремонта</p>
+            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="#">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic4.png">
           <div class="portfolio__overlay">
-            <button class="portfolio__button"></button>
+            <p>Проект "Ирина"</p>
+            <p>Точная стоимость ремонта</p>
+            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="#">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic5.png">
           <div class="portfolio__overlay">
-            <button class="portfolio__button"></button>
+            <p>Проект "Ирина"</p>
+            <p>Точная стоимость ремонта</p>
+            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="#">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic6.png">
           <div class="portfolio__overlay">
-            <button class="portfolio__button"></button>
+            <p>Проект "Ирина"</p>
+            <p>Точная стоимость ремонта</p>
+            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="#">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic7.jpg">
           <div class="portfolio__overlay">
-            <button class="portfolio__button"></button>
+            <p>Проект "Ирина"</p>
+            <p>Точная стоимость ремонта</p>
+            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="#">Смотреть</a>
           </div>
         </li>
       </ul>
@@ -314,7 +366,7 @@
           <button class="main-header__button main-header__button_bg_red button-order">Оформить заявку</button>
     </section>
     <section class="section calc-repair" id="calc-repair">
-      <h2 class="offers__title offers__title--bigSize section__title">Рассчитай свой ремонт</h2>
+      <h2 class="offers__title offers__title--bigSize section__title">Рассчитай свой ремонт*</h2>
       <div class="slidecontainer">
         <p class="slideValue">50 м<sup>2</sup></p>
         <input class="slider" type="range" min="1" max="100" value="10">
@@ -343,7 +395,8 @@
           <div class="price-offers__price">250 000 <span></span></div>
           <div class="price-offers__title">Дизайерский ремонт</div>
         </li>
-      </ul><a class="main-header__button main-header__button--redColor" href="#">Оформить заявку</a>
+      </ul><a class="main-header__button main-header__button--redColor calc-button" href="#">Получить смету</a>
+      <p style="opacity: 0.6;">*Калькулятор позволяет произвести ориетировочные расчёты ремонта</p>
     </section>
     <div class="section addition">
       <div class="offers__title offers__title--bigSize section__title">Выгодное предложение!</div>
@@ -364,7 +417,9 @@
           <div>Сделаем уборку после ремонта в ПОДАРОК!</div>
         </li>
       </ul>
-      <div class="addition__call-zone"><a class="main-header__button main-header__button--redColor" href="#">Оформить заявку</a></div>
+      <div class="addition__call-zone">
+            <button class="main-header__button main-header__button_bg_red button-order">Оформить заявку</button>
+      </div>
     </div>
     <section class="section materials">
       <h2 class="offers__title offers__title--bigSize section__title">Используем только качественные материалы</h2>
