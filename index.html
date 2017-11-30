@@ -423,15 +423,16 @@
     </div>
     <section class="section materials">
       <h2 class="offers__title offers__title--bigSize section__title">Используем только качественные материалы</h2>
-      <div class="materials__slider"><span class="materials__slider-button"></span>
-        <ul class="materials__list">
-          <li class="materials__item"><img class="materials__img" src="assets/img/castorama.png"></li>
-          <li class="materials__item"><img class="materials__img" src="assets/img/obi.png"></li>
-          <li class="materials__item"><img class="materials__img" src="assets/img/leroy.png"></li>
-          <li class="materials__item"><img class="materials__img" src="assets/img/maxidom.png"></li>
-          <li class="materials__item"><img class="materials__img" src="assets/img/rauta.png"></li>
-        </ul><span class="materials__slider-button"></span>
-      </div>
+      <ul class="materials__list">
+        <li class="materials__item"><img class="materials__img" src="assets/img/castorama.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/obi.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/leroy.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/maxidom.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/rauta.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/vim.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/ob.png"></li>
+        <li class="materials__item"><img class="materials__img" src="assets/img/petr.png"></li>
+      </ul>
     </section>
     <section class="section rewiews">
       <h2 class="offers__title offers__title--bigSize section__title">Отзывы наших клиентов</h2>
@@ -507,24 +508,44 @@
       <h2 class="offers__title offers__title--bigSize section__title">Вопросы, которые нам задают</h2>
       <div class="questions__content">
         <ul class="questions__list">
-          <li class="questions__item"><span>У вас вызвать замерщика платно/бесплатно?</span></li>
-          <li class="questions__item">Материалы входят в стоимостть ремонта?</li>
-          <li class="questions__item">Сколько будет длиться ремонт?</li>
-          <li class="questions__item questions__item--active">Если в ходе работ решили изменить концепцию - возможно ли это?</li>
-          <li class="questions__item">Почему должны выбрать именно Вашу компанию?</li>
-        </ul>
-        <ul class="questions__answers-list">
-          <li class="questions__answers-item">
-            <div class="questions__answers-title">Если в ходе работ решили изменить концепцию - возможно ли это?</div>
-            <div class="questions__answers-content">Естественно, все обсуждаем по ходу нашего сотрудничества.</div>
+          <li class="questions__item">
+            <div class="questions__text">У вас вызвать замерщика платно/бесплатно?</div>
+            <div class="questions__answers">Естественно, все обсуждаем по ходу нашего сотрудничества.</div>
           </li>
-        </ul>
+          <li class="questions__item">
+            <div class="questions__text">Материалы входят в стоимостть ремонта?</div>
+            <div class="questions__answers">Смета составляется на объем работ (демонтаж, отделочные, электрика, сантехника). Стоимость материалов не входит  в смету. По желанию Заказчика мы можем рассчитать приблизительно стоимость материалов, в зависимости от класса ремонта.</div>
+          </li>
+          <li class="questions__item"> 
+            <div class="questions__text">Сколько будет длиться ремонт?</div>
+            <div class="questions__answers">Зачастую это зависит от своевременной оплаты выполненных работ, приобретении и ВЫБОРЕ отделочных материалов Заказчиком. Свои обязательства по срокам мы прописываем в договоре.</div>
+          </li>
+          <li class="questions__item">
+            <div class="questions__text">Если в ходе работ решили изменить концепцию - возможно ли это?</div>
+            <div class="questions__answers">Естественно, все обсуждаем по ходу нашего сотрудничества.</div>
+          </li>
+          <li class="questions__item">
+            <div class="questions__text">Почему должны выбрать именно вашу компанию?</div>
+            <div class="questions__answers">Этот бизнес в 1997 году организовал инженер-строитель. В штат он подбирал только квалифицированных специалистов: электриков, сантехников, отделочников.20 лет как наша компания производит ремонтно-отделочные работы на совершенно разных объектах: квартирах, загородных домах, кафе, ресторанах, саунах, бассейнов.На сегодняшний день мы сотрудничаем со многими компаниями по производству и установке: дверей, окон, натяжных  потолков, встроенной мебели. Для вас имеем максимальные скидки. Мы занимаемся этим делом, потому что любим создавать красоту и уют.	</div>
+          </li>
+        </ul><a class="main-header__button main-header__button_bg_red" href="#add-question">Задать вопрос</a>
       </div>
-      <div class="questions__button"><a class="main-header__button main-header__button--redColor" href="#">Задать вопрос</a></div>
     </section>
-    <div class="section begin-repair">
-      <div class="offers__title offers__title--bigSize section__title">Остались вопросы? Пишите!</div>
-      <div style="text-align: center;">Здесь будет контент</div>
+    <div class="section add-question" id="add-question">
+      <div class="offers__title offers__title--bigSize section__title add-question__title">Остались вопросы? Пишите!</div>
+      <div class="add-question__content">
+        <form class="add-question__form" action="">
+          <label for="name">
+            <input class="modal__input" type="text" name="name" placeholder="Ваше Имя">
+          </label>
+          <label for="phone">
+            <input class="modal__input" type="tel" name="phone" placeholder="Номер телефона">
+          </label>
+          <textarea class="add-question__msg" cols="30" rows="5" placeholder="Ваш вопрос..."></textarea>
+          <input type="checkbox">
+          <label class="check check--white" for="check">Соглашаюсь на обработку персональных данных</label>
+        </form><a class="main-header__button" href="#">Отправить заявку</a>
+      </div>
     </div>
     <section class="section contacts">
       <div class="contacts__part contacts__part-content">
