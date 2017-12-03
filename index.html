@@ -6,6 +6,7 @@
     <meta content="" name="author">
     <meta content="" name="description">
     <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
@@ -35,7 +36,7 @@
           </label>
           <input type="checkbox">
           <label class="check" for="check">Соглашаюсь на обработку персональных данных</label>
-        </form><a class="main-header__button" href="#">Отправить заявку</a>
+        </form><a class="button" href="#">Отправить заявку</a>
       </div>
     </div>
     <div class="modal calc-modal">
@@ -77,7 +78,8 @@
       </div>
     </div>
     <header class="main-header">
-      <div class="main-header__top"><a class="main-header__logo" href="#">
+      <div class="main-header__top">
+        <button class="nav-button"><span></span> Меню</button><a class="main-header__logo" href="#">
           <div class="main-header__logo-img"></div>
           <div class="main-header__logo-title"><span>интерьер</span><span>сервис</span></div></a>
         <nav class="main-nav">
@@ -98,8 +100,8 @@
         <div class="main-header__bg"><img class="main-header__img" src="assets/img/mainbg.png"></div>
         <div class="main-header__text"> 
           <div class="main-header__descr">20 лет ремонтируем квартиры <span>"под ключ"</span> в Санкт-Петербурге</div>
-          <div class="main-header__buttons-wrap"><a class="main-header__button" href="#calc-repair">Рaccчитать ремонт</a>
-            <button class="main-header__button button-order">Вызвать замерщика</button>
+          <div class="main-header__buttons-wrap"><a class="button main-header__button_bg_red" href="#calc-repair">Рaccчитать ремонт</a>
+                <button class="button button-order">Вызвать замерщика</button>
           </div>
         </div>
       </div><a class="scroll-down" href="#offers"></a>
@@ -198,33 +200,40 @@
     <section class="section steps">
       <h2 class="offers__title offers__title--bigSize offers__title--white">С чего начать</h2>
       <ul class="steps__list">
+        <li class="steps__item"></li>
         <li class="steps__item">
-          <div class="steps__item-number">1</div>
-          <div class="steps__item_descr">Вызов замерщика</div>
-        </li>
-        <li class="steps__item">
-          <div class="steps__item-number">2</div>
-          <div class="steps__item_descr">Составление сметы</div>
-        </li>
-        <li class="steps__item">
-          <div class="steps__item-number">3</div>
+          <div class="steps__item-number"></div>
           <div class="steps__item_descr">Заключение договора</div>
         </li>
+        <li class="steps__item"></li>
         <li class="steps__item">
-          <div class="steps__item-number">4</div>
+          <div class="steps__item-number"></div>
           <div class="steps__item_descr">Выезд бригады на Ваш объект</div>
         </li>
+        <li class="steps__item"></li>
         <li class="steps__item">
-          <div class="steps__item-number">5</div>
+          <div class="steps__item-number"></div>
           <div class="steps__item_descr">Выполнение работ</div>
         </li>
+        <li class="steps__item"></li>
         <li class="steps__item">
-          <div class="steps__item-number">6</div>
-          <div class="steps__item_descr">Подписание акта приёма работ</div>
+          <div class="steps__item-number"></div>
+          <div class="steps__item_descr">Вызов замерщика</div>
         </li>
+        <li class="steps__item"></li>
         <li class="steps__item">
-          <div class="steps__item-number">7</div>
-          <div class="steps__item_descr">Переезд в уютную кваритру</div>
+          <div class="steps__item-number"> </div>
+          <div class="steps__item_descr">Составление сметы</div>
+        </li>
+        <li class="steps__item"></li>
+        <li class="steps__item">
+          <div class="steps__item-number"></div>
+          <div class="steps__item_descr">Подписание акта приёма передач</div>
+        </li>
+        <li class="steps__item"></li>
+        <li class="steps__item">
+          <div class="steps__item-number"></div>
+          <div class="steps__item_descr">Переезд в уютную квартиру</div>
         </li>
       </ul>
     </section>
@@ -235,49 +244,49 @@
           <div class="portfolio__overlay">
             <p>Проект "Ирина"</p>
             <p>Точная стоимость ремонта</p>
-            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="another-page.html">Смотреть</a>
+            <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic2.png">
           <div class="portfolio__overlay">
             <p>Проект "Ирина"</p>
             <p>Точная стоимость ремонта</p>
-            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="another-page.html">Смотреть</a>
+            <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic3.png">
           <div class="portfolio__overlay">
             <p>Проект "Ирина"</p>
             <p>Точная стоимость ремонта</p>
-            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="another-page.html">Смотреть</a>
+            <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic4.png">
           <div class="portfolio__overlay">
             <p>Проект "Ирина"</p>
             <p>Точная стоимость ремонта</p>
-            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="another-page.html">Смотреть</a>
+            <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic5.png">
           <div class="portfolio__overlay">
             <p>Проект "Ирина"</p>
             <p>Точная стоимость ремонта</p>
-            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="another-page.html">Смотреть</a>
+            <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic6.png">
           <div class="portfolio__overlay">
             <p>Проект "Ирина"</p>
             <p>Точная стоимость ремонта</p>
-            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="another-page.html">Смотреть</a>
+            <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
           </div>
         </li>
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic7.jpg">
           <div class="portfolio__overlay">
             <p>Проект "Ирина"</p>
             <p>Точная стоимость ремонта</p>
-            <p>150 000 <span></span></p><a class="main-header__button main-header__button_bg_red" href="another-page.html">Смотреть</a>
+            <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
           </div>
         </li>
       </ul>
@@ -301,7 +310,7 @@
             <li class="prices-item__option prices-item__option_yes">Вывоз мусора</li>
             <li class="prices-item__option prices-item__option_yes">Клининг</li>
           </ul>
-              <button class="main-header__button main-header__button_bg_red button-order">Оставить заявку</button>
+              <button class="button main-header__button_bg_red button-order">Оставить заявку</button>
         </li>
         <li class="prices__item prices-item">
           <div class="prices-item__title">Капитальный ремонт</div>
@@ -319,7 +328,7 @@
             <li class="prices-item__option prices-item__option_yes">Вывоз мусора</li>
             <li class="prices-item__option prices-item__option_yes">Клининг</li>
           </ul>
-              <button class="main-header__button main-header__button_bg_red button-order">Оставить заявку</button>
+              <button class="button main-header__button_bg_red button-order">Оставить заявку</button>
         </li>
         <li class="prices__item prices-item">
           <div class="prices-item__title">Дизайнерский ремонт</div>
@@ -337,7 +346,7 @@
             <li class="prices-item__option prices-item__option_yes">Вывоз мусора</li>
             <li class="prices-item__option prices-item__option_yes">Клининг</li>
           </ul>
-              <button class="main-header__button main-header__button_bg_red button-order">Оставить заявку</button>
+              <button class="button main-header__button_bg_red button-order">Оставить заявку</button>
         </li>
       </ul>
     </div>
@@ -363,7 +372,7 @@
           <div class="offers__time-title">секунд</div>
         </li>
       </ul>
-          <button class="main-header__button main-header__button_bg_red button-order">Оформить заявку</button>
+          <button class="button main-header__button_bg_red button-order">Оформить заявку</button>
     </section>
     <section class="section calc-repair" id="calc-repair">
       <h2 class="offers__title offers__title--bigSize section__title">Рассчитай свой ремонт*</h2>
@@ -395,7 +404,7 @@
           <div class="price-offers__price">250 000 <span></span></div>
           <div class="price-offers__title">Дизайерский ремонт</div>
         </li>
-      </ul><a class="main-header__button main-header__button--redColor calc-button" href="#">Получить смету</a>
+      </ul><a class="button main-header__button--redColor calc-button" href="#">Получить смету</a>
       <p style="opacity: 0.6;">*Калькулятор позволяет произвести ориетировочные расчёты ремонта</p>
     </section>
     <div class="section addition">
@@ -418,7 +427,7 @@
         </li>
       </ul>
       <div class="addition__call-zone">
-            <button class="main-header__button main-header__button_bg_red button-order">Оформить заявку</button>
+            <button class="button main-header__button_bg_red button-order">Оформить заявку</button>
       </div>
     </div>
     <section class="section materials">
@@ -528,7 +537,7 @@
             <div class="questions__text">Почему должны выбрать именно вашу компанию?</div>
             <div class="questions__answers">Этот бизнес в 1997 году организовал инженер-строитель. В штат он подбирал только квалифицированных специалистов: электриков, сантехников, отделочников.20 лет как наша компания производит ремонтно-отделочные работы на совершенно разных объектах: квартирах, загородных домах, кафе, ресторанах, саунах, бассейнов.На сегодняшний день мы сотрудничаем со многими компаниями по производству и установке: дверей, окон, натяжных  потолков, встроенной мебели. Для вас имеем максимальные скидки. Мы занимаемся этим делом, потому что любим создавать красоту и уют.	</div>
           </li>
-        </ul><a class="main-header__button main-header__button_bg_red" href="#add-question">Задать вопрос</a>
+        </ul><a class="button main-header__button_bg_red" href="#add-question">Задать вопрос</a>
       </div>
     </section>
     <div class="section add-question" id="add-question">
@@ -544,7 +553,8 @@
           <textarea class="add-question__msg" cols="30" rows="5" placeholder="Ваш вопрос..."></textarea>
           <input type="checkbox">
           <label class="check check--white" for="check">Соглашаюсь на обработку персональных данных</label>
-        </form><a class="main-header__button" href="#">Отправить заявку</a>
+        </form>
+            <button class="button main-header__button_bg_red button-order">Отправить заявку</button>
       </div>
     </div>
     <section class="section contacts">
