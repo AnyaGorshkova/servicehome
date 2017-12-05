@@ -74,22 +74,22 @@
             <input type="checkbox">
             <label class="check" for="check">Соглашаюсь на обработку персональных данных</label>
           </form>
-        </div><a class="main-header__button" href="#">Получить смету</a>
+        </div><a class="button" href="#">Получить смету</a>
       </div>
     </div>
-    <header class="main-header">
+    <header class="main-header" id="top">
       <div class="main-header__top">
         <button class="nav-button"><span></span> Меню</button><a class="main-header__logo" href="#">
           <div class="main-header__logo-img"></div>
           <div class="main-header__logo-title"><span>интерьер</span><span>сервис</span></div></a>
         <nav class="main-nav">
           <ul class="main-nav__list">
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Услуги</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Портфолио</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Цены</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Калькулятор</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Акции</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="#">Контакты</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#services">Услуги</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#portfolio">Портфолио</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#prices">Цены</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#calc-repair">Калькулятор</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#offers">Акции</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#contacts">Контакты</a></li>
           </ul>
         </nav>
         <ul class="main-header__contacts">
@@ -104,9 +104,9 @@
                 <button class="button button-order">Вызвать замерщика</button>
           </div>
         </div>
-      </div><a class="scroll-down" href="#offers"></a>
+      </div><a class="scroll-down" href="#staff"></a>
     </header>
-    <section class="section staff">
+    <section class="section staff" id="staff">
       <h2 class="offers__title offers__title--bigSize section__title">О нас от первого лица	</h2>
       <div class="container">
         <div class="staff__part staff__part--video">
@@ -124,42 +124,71 @@
         </div>
       </div>
     </section>
-    <section class="section services">
+    <section class="section services" id="services">
       <h2 class="offers__title offers__title--bigSize section__title">Наши услуги</h2>
       <ul class="services__list">
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Устанавливаем сантехнику
-            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
-          </div>
+          <div class="services__title">Устанавливаем сантехнику</div>
+          <p class="services__text">
+            Прокладка коммуникаций для сантехники является одним из важнейших этапов ремонта помещения. Ошибки и недочеты здесь недопустимы. 
+            Составляется план расположения оборудования, намечаются точки подвода коммуникаций. 
+            Необходимо учесть как будет происходить чистовая отделка, возможность отключения давления в сети и 
+            обслуживания дополнительного оборудования (фильтров, редукторов давления и так далее). 
+            Независимо от сложности сантехники, приоритетом для нас является надежность.
+          </p>
         </li>
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Устанавливаем кондиционеры
-            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
-          </div>
+          <div class="services__title">Устанавливаем кондиционеры</div>
+          <p class="services__text">
+            В основном кондиционерами у нас принято называть сплит-системы. Они позволяют охладить воздух летом и наоборот нагреть осенью и весной. Особенно актуально это осенью, отопление еще не включили, в квартире прохладно и сыро.
+            Более дорогой вариант это канальный кондиционер. Он позволяет осуществлять как кондиционирование, так и вентиляцию помещения. Благодаря канальному кондиционеру у вас в квартире будет свежий воздух с заданными параметрами.
+          </p>
         </li>
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Красим стены
-            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
-          </div>
+          <div class="services__title">Красим стены</div>
+          <p class="services__text">
+            Покраска стен только на первый взгляд кажется простым решением по сравнению с обоями и декоративной штукатуркой.
+            Дело в том, что перед покраской нужна более тщательная подготовка поверхности.
+            Для шпаклевки выбирается более дорогой состав, трудоемкость и ответственность работ увеличивается. Есть конечно несомненные плюсы. Будущий косметический ремонт таких стен произвести будет на много дешевле и проще. Такая поверхность более экологична, и дает возможность для дальнейшего творчества.
+          </p>
         </li>
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Выравниваем стены
-            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
-          </div>
+          <div class="services__title">Выравниваем стены</div>
+          <p class="services__text">
+            Выравнивание стен бывает нескольких видов:
+            1. После подготовки стены шпаклюются на 1-2 раза. Поверхность готова к дальнейшему творческому процессу.
+            2. Перед шпаклевкой, стены предварительно выравниваются штукатурным составом. Поверхность получается визуально ровной. Одним из главных достоинств этого вида выравнивания является экономия времени и дорогой шпаклевки. Штукатурные смеси гораздо дешевле шпаклевки.
+            3. Третий вид наиболее трудоемкий, но именно он позволяет избежать дальнейших проблем. На первом этапе стены штукатурятся по маякам. Проверяется геометрия помещения. Затем поверхность шпаклюется не менее 2-х раз.
+            Возможными Проблемами указанными в 3-м пункте могут быть:
+            1. Установка дверей межкомнатных
+            2. Установка мебели
+            3. Установка плинтуса
+          </p>
         </li>
         <li class="servises__item">
           <div class="services__icon"></div>
-          <div class="services__title">Перепланируем помещение
-            <div class="services__button-more">Мы можем Вам предложить все услуги по продаже, монтажу, сервису и обслуживанию систем кондиционирования.</div>
-          </div>
+          <div class="services__title">Перепланируем помещение</div>
+          <p class="services__text">
+            Перепланировка помещения должна проводиться строго в соответствии с архитектурным проектом. 
+            Если перепланировка не затрагивает несущие конструкции или незначительна, возможно хватит лишь согласований. 
+            Если перепланировка влияет на несущие элементы здания, то на каждый этап требуется проект с расчетом нагрузок и элементов используемых при перепланировке. На эти работы необходимо иметь лицензию.
+            Выполнять перепланировку можно только после получения всех необходимых документов. 
+            Мы можем это сделать за Вас.
+          </p>
+        </li>
+        <li class="servises__item">
+          <div class="services__icon"></div>
+          <div class="services__title">Демонтаж</div>
+          <p class="services__text">Демонтаж это начальный этап , когда требуется подготовить помещение. Эти работы проводятся согласно мер безопасности, строго в часы, когда можно проводить шумные работы и соблюдением чистоты.</p>
         </li>
       </ul>
+          <button class="button main-header__button_bg_red button-order">Получить консультацию</button>
     </section>
-    <section class="section advantages">
+    <section class="section advantages" id="advantages">
       <h2 class="offers__title offers__title--bigSize section__title">Плюсов много</h2>
       <div class="advantages__content">
         <div class="advantages__part">
@@ -197,48 +226,11 @@
         </div>
       </div>
     </section>
-    <section class="section steps">
+    <section class="section steps" id="steps">
       <h2 class="section__title section__title--color-white">С чего начать</h2>
-      <ul class="steps__list">
-        <li class="steps__item"></li>
-        <li class="steps__item">
-          <div class="steps__item-number"></div>
-          <div class="steps__item_descr">Заключение договора</div>
-        </li>
-        <li class="steps__item"></li>
-        <li class="steps__item">
-          <div class="steps__item-number"></div>
-          <div class="steps__item_descr">Выезд бригады на Ваш объект</div>
-        </li>
-        <li class="steps__item"></li>
-        <li class="steps__item">
-          <div class="steps__item-number"></div>
-          <div class="steps__item_descr">Выполнение работ</div>
-        </li>
-        <li class="steps__item"></li>
-        <li class="steps__item">
-          <div class="steps__item-number"></div>
-          <div class="steps__item_descr">Вызов замерщика</div>
-        </li>
-        <li class="steps__item"></li>
-        <li class="steps__item">
-          <div class="steps__item-number"> </div>
-          <div class="steps__item_descr">Составление сметы</div>
-        </li>
-        <li class="steps__item"></li>
-        <li class="steps__item">
-          <div class="steps__item-number"></div>
-          <div class="steps__item_descr">Подписание акта приёма передач</div>
-        </li>
-        <li class="steps__item"></li>
-        <li class="steps__item">
-          <div class="steps__item-number"></div>
-          <div class="steps__item_descr">Переезд в уютную квартиру</div>
-        </li>
-      </ul>
     </section>
-    <section class="section portfolio">
-      <h2 class="offers__title offers__title--bigSize section__title">За 8 лет выполнили более 100 ремонтов</h2>
+    <section class="section portfolio" id="portfolio">
+      <h2 class="offers__title offers__title--bigSize section__title">За 20 лет выполнили более 1000 ремонтов</h2>
       <ul class="portfolio__list">
         <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic1.png">
           <div class="portfolio__overlay">
@@ -289,9 +281,16 @@
             <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
           </div>
         </li>
+        <li class="portfolio__item"><img class="portfolio__img" src="assets/img/pic7.jpg">
+          <div class="portfolio__overlay">
+            <p>Строительство загородного дома</p>
+            <p>Точная стоимость ремонта</p>
+            <p>150 000 <span></span></p><a class="button main-header__button_bg_red" href="another-page.html">Смотреть</a>
+          </div>
+        </li>
       </ul>
     </section>
-    <div class="section prices">
+    <div class="section prices" id="prices">
       <div class="offers__title offers__title--bigSize section__title">Доступные цены</div>
       <ul class="prices__list">
         <li class="prices__item prices-item">
@@ -377,8 +376,8 @@
     <section class="section calc-repair" id="calc-repair">
       <h2 class="offers__title offers__title--bigSize section__title">Рассчитай свой ремонт*</h2>
       <div class="slidecontainer">
-        <p class="slideValue">50 м<sup>2</sup></p>
-        <input class="slider" type="range" min="1" max="100" value="50">
+        <p class="slideValue">75 м<sup>2</sup></p>
+        <input class="slider" type="range" min="1" max="150" value="75">
       </div>
       <div class="rooms">
         <div class="rooms__title">количество комнат:</div>
@@ -393,15 +392,15 @@
       </div>
       <ul class="price-offers">
         <li class="price-offers__item price-offers__item--active">
-          <div class="price-offers__price">50 000 <span></span></div>
+          <div class="price-offers__price">от 50 000 <span></span></div>
           <div class="price-offers__title">Косметический ремонт</div>
         </li>
         <li class="price-offers__item"> 
-          <div class="price-offers__price">150 000 <span></span></div>
+          <div class="price-offers__price">от 150 000 <span></span></div>
           <div class="price-offers__title">Капитальный ремонт</div>
         </li>
         <li class="price-offers__item"> 
-          <div class="price-offers__price">250 000 <span></span></div>
+          <div class="price-offers__price">от 250 000 <span></span></div>
           <div class="price-offers__title">Дизайерский ремонт</div>
         </li>
       </ul><a class="button main-header__button--redColor calc-button" href="#">Получить смету</a>
@@ -430,7 +429,7 @@
             <button class="button main-header__button_bg_red button-order">Оформить заявку</button>
       </div>
     </div>
-    <section class="section materials">
+    <section class="section materials" id="materials">
       <h2 class="offers__title offers__title--bigSize section__title">Используем только качественные материалы</h2>
       <ul class="materials__list">
         <li class="materials__item"><img class="materials__img" src="assets/img/castorama.png"></li>
@@ -443,7 +442,7 @@
         <li class="materials__item"><img class="materials__img" src="assets/img/petr.png"></li>
       </ul>
     </section>
-    <section class="section rewiews">
+    <section class="section rewiews" id="rewiews">
       <h2 class="offers__title offers__title--bigSize section__title">Отзывы наших клиентов</h2>
       <ul class="rewiews__content">
         <li class="rewiews__item rewiews__item--active">
@@ -513,7 +512,7 @@
         <div class="page-pagination__item" data-number="2"></div>
       </div>
     </section>
-    <section class="section questions">
+    <section class="section questions" id="questions">
       <h2 class="offers__title offers__title--bigSize section__title">Вопросы, которые нам задают</h2>
       <div class="questions__content">
         <ul class="questions__list">
@@ -557,7 +556,7 @@
             <button class="button main-header__button_bg_red button-order">Отправить заявку</button>
       </div>
     </div>
-    <section class="section contacts">
+    <section class="section contacts" id="contacts">
       <div class="contacts__part contacts__part-content">
         <h2 class="section__title section__title--color-white">Наши контакты</h2>
         <ul class="contacts__list">
@@ -593,6 +592,7 @@ infowindow.open(map, marker);
         </script>
       </div>
     </section>
+    <footer class="footer">Это футер</footer>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Ncosm7KrFjC4N1yWHqTKavjJu4Jucr4&amp;callback=initMap"> </script>
   </body>
 </html>
