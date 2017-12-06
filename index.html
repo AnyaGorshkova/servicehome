@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Home page</title>
+    <title>Интерьер сервис</title>
     <meta content="" name="author">
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -22,7 +22,7 @@
     <script src="./assets/js/app.js" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
-  <body>
+  <body><a href="#top" id="totop"></a>
     <div class="modal order-modal">
       <div class="modal__window">
         <div class="close"></div>
@@ -60,7 +60,7 @@
               </li>
               <li class="calc-modal__item">
                 <div class="calc-modal__title">Стоимость:</div>
-                <div>от 50 000	<span></span></div>
+                <div class="calc-modal__cost">от 50 000	<span></span></div>
               </li>
             </ul>
           </div>
@@ -79,11 +79,14 @@
     </div>
     <header class="main-header" id="top">
       <div class="main-header__top">
-        <button class="nav-button"><span></span> Меню</button><a class="main-header__logo" href="#">
+        <button class="nav-button"><span></span> <span class="nav-button__text">Меню</span></button><a class="main-header__logo" href="#">
           <div class="main-header__logo-img"></div>
           <div class="main-header__logo-title"><span>интерьер</span><span>сервис</span></div></a>
         <nav class="main-nav">
           <ul class="main-nav__list">
+            <li class="main-nav__item" id="close-nav">
+              <div class="main-nav__link"></div>
+            </li>
             <li class="main-nav__item"><a class="main-nav__link" href="#services">Услуги</a></li>
             <li class="main-nav__item"><a class="main-nav__link" href="#portfolio">Портфолио</a></li>
             <li class="main-nav__item"><a class="main-nav__link" href="#prices">Цены</a></li>
@@ -194,16 +197,28 @@
         <div class="advantages__part">
           <ul class="advantages__list">
             <li class="advantages__item">
-              <div class="advantages__title">Гарантия 3 года</div>
-              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+              <div class="advantages__title">Гарантии</div>
+              <div class="advantages__text">
+                - Опыт 20 лет </br>
+                - Договор с ООО </br>
+                - Страхование на период выполнения работ </br>
+              </div>
             </li>
             <li class="advantages__item">
-              <div class="advantages__title">Дизайн проекты</div>
-              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+              <div class="advantages__title">Оплата</div>
+              <div class="advantages__text">
+                - За каждый выполненный этап работы </br>
+                - Отчёт по смете каждую неделю на почту </br>
+                - Скидка за объём </br>
+              </div>
             </li>
             <li class="advantages__item">
-              <div class="advantages__title">Экономия</div>
-              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+              <div class="advantages__title">Бонусы</div>
+              <div class="advantages__text">
+                - мы помогаем приобретать Вам строительные материалы с максимальными скажками</br>
+                - по Вашему желанию на своём авто провезём по 3-4 строительным гипермаркетам в удобное для Вас время</br>
+                - сделаем уборку после ремонта</br>
+              </div>
             </li>
           </ul>
         </div>
@@ -211,16 +226,22 @@
         <div class="advantages__part">
           <ul class="advantages__list">
             <li class="advantages__item">
-              <div class="advantages__title">Сервис превыше всего</div>
-              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+              <div class="advantages__title">Работы</div>
+              <div class="advantages__text">
+                - ремонт любой сложности от эконом (квартиры под сдачу) до капитального с дизайн-проектом</br>
+                - усутановка кондиционеров, систем вентиляции</br>
+                - по благоустройству квартиры (навес люстр, светильников, гардин, карти, полок, шкафов, зеркал)</br>
+                - по благоустройству балконов и лоджий (установка шкафов, сушил, светильников)</br>
+              </div>
             </li>
             <li class="advantages__item">
-              <div class="advantages__title">Согласование перепланировки</div>
-              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
-            </li>
-            <li class="advantages__item">
-              <div class="advantages__title">Опыт</div>
-              <div class="advantages__text">Если что-то случится, восстановительные работы за наш счёт. Договор - Ваша защита</div>
+              <div class="advantages__title">Принципы</div>
+              <div class="advantages__text">
+                - соблюдаем "Закон тишины"</br>
+                - не допускаем неудобств соседям - вывозим строительный мусор</br>
+                - по желанию предоставляем ежедневный фотоотчёт</br>
+                - всегда на связи</br>
+              </div>
             </li>
           </ul>
         </div>
@@ -228,6 +249,7 @@
     </section>
     <section class="section steps" id="steps">
       <h2 class="section__title section__title--color-white">С чего начать</h2>
+      <div class="steps__bg"></div>
     </section>
     <section class="section portfolio" id="portfolio">
       <h2 class="offers__title offers__title--bigSize section__title">За 20 лет выполнили более 1000 ремонтов</h2>
@@ -350,7 +372,7 @@
       </ul>
     </div>
     <section class="section offers" id="offers">
-      <div class="offers__title">только до 7 декабря</div>
+      <div class="offers__title">только до 20 декабря</div>
       <div class="offers__title">Вызовите замерщика и получите скидку 20%!</div>
       <div class="offers__descr">до конца акции осталось:</div>
       <ul class="offers__time">
@@ -596,7 +618,7 @@ infowindow.open(map, marker);
         </script>
       </div>
     </section>
-    <footer class="footer">Это футер</footer>
+    <footer class="footer"><span></span><span>Интерьер сервис, 2017</span></footer>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Ncosm7KrFjC4N1yWHqTKavjJu4Jucr4&amp;callback=initMap"> </script>
   </body>
 </html>
