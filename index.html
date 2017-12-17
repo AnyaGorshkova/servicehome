@@ -16,8 +16,14 @@
     <meta name="theme-color" content="#000">
     <meta name="msapplication-navbutton-color" content="#000">
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-    <link rel="stylesheet" href="./assets/css/foundation.css">
-    <link rel="stylesheet" href="./assets/css/app.css">
+    <style type="text/css">
+      @charset "UTF-8";html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header,nav,section{display:block}video{display:inline-block}sup{vertical-align:baseline}a{background-color:transparent;-webkit-text-decoration-skip:objects}sup{font-size:75%;line-height:0;position:relative}sup{top:-.5em}img{border-style:none}button,input{font:inherit;margin:0}button,input{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring{outline:1px dotted ButtonText}[type=checkbox]{box-sizing:border-box;padding:0}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:Roboto;src:url(../assets/fonts/Roboto/roboto-regular-webfont.woff) format("woff"),url(../assets/assets/fonts/Roboto/roboto-regular-webfont.woff2) format("woff2");font-style:normal;font-weight:400}@font-face{font-family:Fontawesome;src:url(../assets/fonts/Fontawesome/fontawesome.woff) format("woff"),url(../assets/fonts/Fontawesome/fontawesome.woff2) format("woff2")}::-webkit-input-placeholder{color:#666;opacity:1}:-moz-placeholder,::-moz-placeholder{color:#666;opacity:1}:-ms-input-placeholder{color:#666;opacity:1}img,video{vertical-align:middle}body,html{height:100%}body{font-size:16px;position:relative;line-height:1.75;font-family:Roboto,sans-serif;overflow-x:hidden;opacity:1}.section{padding:50px 0}.section__title{position:relative;font-size:35px;z-index:10;width:80%;text-align:center;font-weight:400;text-transform:uppercase;color:#333;margin:0 auto;margin-bottom:80px}.section__title:after{content:"";display:block;width:150px;height:30px;background:url(../assets/img/br1.svg) 50% no-repeat;background-size:contain;position:absolute;bottom:-30px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.nav-button .nav-button__text{font-family:Roboto,sans-serif;font-size:18px}.button{display:inline-block;color:#fff;text-decoration:none;border:1px solid #49c5b6;padding:10px 15px;border-radius:30px;font-size:20px;outline:0;background-color:#49c5b6}.button:first-child{margin-right:25px}.button_bg_accent{background-color:#f9572e;color:#fff;border-color:#f9572e}.modal{display:-webkit-box;display:-ms-flexbox;display:flex;position:fixed;top:0;left:0;width:100%;height:100%;opacity:0;z-index:100;will-change:transform,opacity;-webkit-transform:scale(1.15);transform:scale(1.15)}.modal:after{position:absolute;top:0;left:0;content:"";width:100%;height:100%;background:rgba(0,0,0,.6)}.modal__window{position:relative;width:40%;z-index:30;background-color:#fff;border-bottom:5px solid #49c5b6;padding:30px;text-align:center;margin:auto}.modal__window p{margin:0;padding:0;margin-bottom:20px;font-size:25px;position:relative}.close{position:absolute;top:10px;right:20px;font-size:20px;font-family:Fontawesome;z-index:10;color:#f9572e}.modal__input{width:100%;border-radius:30px;border:1px solid #333;padding:10px 15px;box-sizing:border-box;margin-bottom:20px;outline:0}input[type=checkbox]{display:none}label.check{margin-bottom:20px;display:inline-block}label.check:before{content:"";font-family:Fontawesome;font-size:20px;color:#fff;width:20px;height:20px;padding:5px;margin-right:7px;text-align:center;background-color:#49c5b6;border-radius:7px}.more-modal .modal__window{max-height:400px;text-align:center;overflow-y:scroll}@media only screen and (max-width:1200px){.more-modal .modal__window{width:50%}}@media only screen and (max-width:992px){.more-modal .modal__window{width:60%}}@media only screen and (max-width:500px){.more-modal .modal__window{width:80%}}@media only screen and (max-width:400px){.more-modal .modal__window{width:90%}}.more-modal__title{font-weight:700;font-size:18px;margin-bottom:20px}.show-photos-modal .modal__window{height:70vh;width:80%;max-width:700px;padding:0}@media only screen and (max-width:460px){.show-photos-modal .modal__window{width:90%}}.slider-show{position:relative;height:100%}.slider-show__list{list-style-type:none;margin:0;padding:0;height:100%;width:100%;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.slider-show__item{display:none}.slider-show__pagination{display:-webkit-box;display:-ms-flexbox;display:flex}.slider-show__pagination{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:20px 0;position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}@media only screen and (max-width:460px){.slider-show__pagination{left:90%;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:0}}.slider-show__arrow{position:absolute;bottom:20px;width:0;height:0;border-style:solid}.arrow-left{border-width:20px 30px 20px 0;border-color:transparent #f9572e transparent transparent;left:0;margin-left:30px}.arrow-right{border-width:20px 0 20px 30px;border-color:transparent transparent transparent #f9572e;right:0;margin-right:30px}.calc-modal .modal__window{width:70%;max-width:800px}.calc-modal .modal__window p{margin-bottom:40px}.calc-modal__content{display:-webkit-box;display:-ms-flexbox;display:flex;border:1px;margin-bottom:30px}.calc-modal__check,.calc-modal__form{-webkit-box-flex:1;-ms-flex:1;flex:1}.calc-modal__list{list-style-type:none;margin:0;padding:0;width:80%;margin:0 auto;background-color:#f2f2f2;padding:10px}.calc-modal__item{display:-webkit-box;display:-ms-flexbox;display:flex;padding:10px}.calc-modal__item:last-child{border-top:1px solid #333}.calc-modal__item:last-child span{font-family:Fontawesome}.calc-modal__title{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:left;font-weight:700}.scroll-down{font-family:Fontawesome;color:#49c5b6;font-size:40px;position:absolute;left:50%;bottom:0;-webkit-animation:scroll-down 1.3s infinite linear;animation:scroll-down 1.3s infinite linear;text-decoration:none;z-index:2}.main-header{width:100%;min-height:700px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:relative;overflow-x:hidden;background:url(../assets/img/bg1.jpg) no-repeat 50%;background-size:cover}.main-header:after{content:"";z-index:0;position:absolute;top:0;bottom:0;left:0;right:0;background-color:hsla(0,0%,100%,.8)}.main-header__top{max-width:1360px;margin:0 auto;padding:10px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-align:center;-ms-flex-wrap:wrap;flex-wrap:wrap;z-index:2;box-sizing:border-box}.main-header__top,.nav-button{-webkit-box-align:center;align-items:center}.nav-button{-webkit-box-flex:1;-ms-flex:1;flex:1;background:0 0;border:none;text-transform:uppercase;color:#333;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-align:center;display:none}.nav-button span{font-family:Fontawesome;font-size:30px;margin-right:10px}.main-nav__list{letter-spacing:.5px;margin:0;padding:0 30px;list-style-type:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%;font-size:13px;text-transform:uppercase;font-weight:700}.main-nav__item{position:relative;padding-bottom:10px}.main-nav__item:first-child{display:none;font-size:20px}.main-nav__link:after{content:"";display:block;height:3px;background-color:#49c5b6;position:absolute;bottom:0;left:20px;right:100%}.main-nav__link{color:#333;text-decoration:none;padding:10px 20px}.main-header__logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#333;text-decoration:none}.main-header__logo span{display:block;line-height:1;font-size:26px;font-family:Roboto,sans-serif;text-transform:uppercase}.main-header__logo span:first-child{font-weight:700;letter-spacing:1px;color:#1a1a3c}.main-header__logo span:nth-child(2){letter-spacing:17px;font-size:12px;color:#000}.main-header__logo-img{width:60px;height:60px;background-image:url(../assets/img/logo.svg);background-position:50%;background-repeat:no-repeat;background-size:contain;margin-right:14px}.main-header__content{display:-webkit-box;display:-ms-flexbox;display:flex;margin:auto;-ms-flex-wrap:wrap;flex-wrap:wrap;z-index:1;max-width:1360px}.main-header__text{-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.main-header__bg,.main-header__text{min-width:480px;-webkit-box-flex:1;position:relative}.main-header__bg{-ms-flex:1;flex:1}.main-header__img{max-width:100%;-webkit-transform:rotate(-7deg);transform:rotate(-7deg)}.main-header__contacts{-webkit-box-flex:1;-ms-flex:1;flex:1;color:#333;font-size:22px;letter-spacing:1px;text-align:right;list-style-type:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin:0;padding:0;padding-right:20px}.main-header__contacts li:first-child{font-family:Roboto,sans-serif}.main-header__contacts li:first-child:before{content:"";font-family:Fontawesome;margin-right:8px;color:#49c5b6}.main-header__contacts li:last-child{margin-right:0}.main-header__contacts li{font-family:Fontawesome;padding-bottom:10px}.main-header__descr{width:90%;font-size:36px;color:#333;margin-bottom:80px;font-size:40px;letter-spacing:.5px;font-weight:700}.main-header__descr span{position:relative;color:#fff;z-index:3}.main-header__descr span:after{content:"";position:absolute;top:0;left:-8px;width:110%;height:120%;background:url(../assets/img/br1.svg) 50% no-repeat;background-size:100%;z-index:-1}.offers__title{font-size:30px;text-transform:uppercase}.container{display:-webkit-box;display:-ms-flexbox;display:flex;max-width:1400px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0 auto}.staff__part,.staff__part--video{-webkit-box-flex:1;-ms-flex:1;flex:1;position:relative}.staff__part--video{height:100%;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.staff__video{width:90%;margin:auto}.staff__text{width:80%;margin:0 auto;margin-bottom:20px;font-size:18px;line-height:28px;font-weight:300px}.rewiews__item{display:none}.rewiews__content{min-height:100vh;width:100%}.rewiews__content,.rewiews__text{display:-webkit-box;display:-ms-flexbox;display:flex}.rewiews__text{-webkit-box-flex:1;-ms-flex:1;flex:1;padding:20px 50px;box-sizing:border-box;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.rewiews__text:before{content:"";font-size:40px;font-family:Fontawesome;color:#49c5b6}.rewiew__text{font-size:20px;margin-bottom:30px}.rewiew__author{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:18px;-ms-flex-item-align:start;align-self:flex-start}.rewiew__author-avatar{width:120px;height:120px;border-radius:50%;border:4px solid #49c5b6;overflow:hidden;margin-right:20px;box-sizing:border-box}.rewiew__author-img{display:block;max-width:100%;-o-object-fit:cover;object-fit:cover}.rewiews__photo{-webkit-box-flex:1;-ms-flex:1;flex:1;background:url(../assets/img/repair-test.jpg) no-repeat 50%;background-size:cover;position:relative}.rewiews__detil{position:absolute;width:50px;height:50px;background-color:#49c5b6;border-radius:50%;text-align:center;color:#fff;top:0;right:0;font-family:Fontawesome;font-size:20px;line-height:50px}.rewiews__detil:first-child{left:12%;top:80%}.rewiews__detil:nth-child(2){right:40%;top:40%}.rewiews__detil:nth-child(3){left:30%;top:10%}.abs{width:200px;height:150px;background-color:#fff;right:-210px;-webkit-transform:translateY(-50%);transform:translateY(-50%);border-radius:5px;border:2px solid #49c5b6;box-sizing:border-box;color:#333;line-height:1.7;font-size:18px;opacity:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.abs,.abs:before{position:absolute;top:50%}.abs:before{content:"";background:#fff;width:15px;height:15px;left:-1px;-webkit-transform:rotate(-45deg) translateY(-50%);transform:rotate(-45deg) translateY(-50%)}.abs--active{opacity:1}#totop{position:fixed;width:50px;height:50px;background-color:#49c5b6;bottom:20px;right:20px;z-index:100;display:-webkit-box;display:-ms-flexbox;display:flex;color:#fff;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-radius:50%;text-decoration:none;font-family:Fontawesome;font-size:20px}@media only screen and (max-width:1200px){.main-header__top{width:100%}.main-nav{position:fixed;top:0;left:0;height:100vh;min-height:640px;background-color:#fff;z-index:1000;-webkit-transform:translateX(-100%);transform:translateX(-100%)}.main-nav__item{margin-bottom:10px}.main-nav__item:first-child{display:block;position:absolute;top:20px;right:20px;font-family:Fontawesome}.main-header__logo{-webkit-box-flex:1;-ms-flex:1;flex:1}.main-nav__list{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:18px}.nav-button{display:-webkit-box;display:-ms-flexbox;display:flex}.main-header__contacts,.nav-button{-webkit-box-flex:1;-ms-flex:1;flex:1}.main-header__contacts{font-size:18px}}@media only screen and (max-width:992px){.main-header__bg{display:none}.main-header__text{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;min-width:100%}.main-header__descr{margin:0 auto 30px;width:auto}.container{-ms-flex-wrap:wrap;flex-wrap:wrap}.staff__part{width:100%;-webkit-box-flex:0;-ms-flex:none;flex:none}.staff__part--video{margin-bottom:40px}.staff__video{width:100%}.staff__part--content{text-align:center}.rewiews__content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.rewiews__text{text-align:center}.rewiew__author{margin:0 auto}.rewiews__photo{min-height:100vh}}@media only screen and (max-width:768px){.calc-modal .modal__window{width:90%;box-sizing:border-box;padding:10px;padding-top:35px}.calc-modal .modal__window p{font-size:18px}.main-header__descr{font-size:30px;width:100%;margin-bottom:70px}.main-header__top{-ms-flex-wrap:wrap;flex-wrap:wrap}.main-header__contacts{box-sizing:border-box;padding-right:20px}.main-header__logo{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;min-width:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:80px;margin-bottom:30px}.main-header__content{width:100%;margin:0 auto}}@media only screen and (max-width:480px){.modal__window{width:95%;box-sizing:border-box;padding:10px;padding-top:35px}.modal__window p{font-size:18px}.calc-modal .modal__window p{margin-bottom:10px}.calc-modal__check{margin-bottom:15px}.calc-modal__item{padding:5px}.check{margin-bottom:0;width:95%}.modal__input{margin-bottom:10px}.calc-modal__content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:0}.staff__text{margin:0 auto;padding:0;width:95%}.offers__title,.section__title{font-size:23px}.main-header__descr{font-size:25px}.main-header__top{-ms-flex-wrap:nowrap;flex-wrap:nowrap;margin-bottom:160px;background-color:#fff;border-bottom:2px solid #49c5b6}.nav-button{-webkit-box-flex:0;-ms-flex:none;flex:none}.nav-button span{margin:0}.nav-button__text{display:none}.main-header__logo{margin:0;min-width:auto;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.main-header__logo-img{width:40px;height:40px;margin-right:8px}.main-header__logo span{font-size:12px;letter-spacing:1}.main-header__logo span:nth-child(2){letter-spacing:5px;font-size:10px;color:#000}.main-header__contacts{padding:0}.main-header__contacts li{font-size:12px;padding-bottom:0}.nav-button span{font-size:20px}.main-header .button{font-size:16px;margin:0 0 10px}.button{font-size:16px}.rewiews__text{padding:0 5px}.rewiew__author{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:20px}.rewiew__author-avatar{margin-bottom:10px}.abs{z-index:10;top:-85px;left:-74px}.abs:before{top:99%;left:50%;margin-left:-7px}}@media only screen and (max-width:320px){.main-header__top{margin-bottom:100px}.main-header__contacts li{font-size:10px;padding-bottom:0}}
+    </style>
+    <link rel="preload" href="./assets/css/foundation.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./assets/css/foundation.css"></noscript>
+    <link rel="preload" href="./assets/css/app.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./assets/css/app.css"></noscript>
+    <script>!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){function e(){t.media=a}var a=t.media||"all";t.addEventListener?t.addEventListener("load",e):t.attachEvent&&t.attachEvent("onload",e),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(e,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
     <script src="./assets/js/foundation.js" defer></script>
     <script src="./assets/js/app.js" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
@@ -120,7 +126,7 @@
       <div class="main-header__content">
         <div class="main-header__bg"><img class="main-header__img" src="assets/img/mainbg.png"></div>
         <div class="main-header__text"> 
-          <div class="main-header__descr">20 лет ремонтируем квартиры</br> <span>"под ключ"</span> в Санкт-Петербурге</div>
+          <div class="main-header__descr">20 лет ремонтируем квартиры<br> <span>"под ключ"</span> в Санкт-Петербурге</div>
           <div class="main-header__buttons-wrap"><a class="button button_bg_accent" href="#calc-repair">Рaccчитать ремонт</a>
                 <button class="button button-order">Вызвать замерщика</button>
           </div>
@@ -229,25 +235,25 @@
             <li class="advantages__item">
               <div class="advantages__title">Гарантии</div>
               <div class="advantages__text">
-                - Опыт 20 лет </br>
-                - Договор с ООО </br>
-                - Страхование на период выполнения работ </br>
+                - Опыт 20 лет <br>
+                - Договор с ООО <br>
+                - Страхование на период выполнения работ <br>
               </div>
             </li>
             <li class="advantages__item">
               <div class="advantages__title">Оплата</div>
               <div class="advantages__text">
-                - За каждый выполненный этап работы </br>
-                - Отчёт по смете каждую неделю на почту </br>
-                - Скидка за объём </br>
+                - За каждый выполненный этап работы <br>
+                - Отчёт по смете каждую неделю на почту <br>
+                - Скидка за объём <br>
               </div>
             </li>
             <li class="advantages__item">
               <div class="advantages__title">Бонусы</div>
               <div class="advantages__text">
-                - мы помогаем приобретать Вам строительные материалы с максимальными скажками</br>
-                - по Вашему желанию на своём авто провезём по 3-4 строительным гипермаркетам в удобное для Вас время</br>
-                - сделаем уборку после ремонта</br>
+                - мы помогаем приобретать Вам строительные материалы с максимальными скажками<br>
+                - по Вашему желанию на своём авто провезём по 3-4 строительным гипермаркетам в удобное для Вас время<br>
+                - сделаем уборку после ремонта<br>
               </div>
             </li>
           </ul>
@@ -258,19 +264,19 @@
             <li class="advantages__item">
               <div class="advantages__title">Работы</div>
               <div class="advantages__text">
-                - ремонт любой сложности от эконом (квартиры под сдачу) до капитального с дизайн-проектом</br>
-                - усутановка кондиционеров, систем вентиляции</br>
-                - по благоустройству квартиры (навес люстр, светильников, гардин, карти, полок, шкафов, зеркал)</br>
-                - по благоустройству балконов и лоджий (установка шкафов, сушил, светильников)</br>
+                - ремонт любой сложности от эконом (квартиры под сдачу) до капитального с дизайн-проектом<br>
+                - усутановка кондиционеров, систем вентиляции<br>
+                - по благоустройству квартиры (навес люстр, светильников, гардин, карти, полок, шкафов, зеркал)<br>
+                - по благоустройству балконов и лоджий (установка шкафов, сушил, светильников)<br>
               </div>
             </li>
             <li class="advantages__item">
               <div class="advantages__title">Принципы</div>
               <div class="advantages__text">
-                - соблюдаем "Закон тишины"</br>
-                - не допускаем неудобств соседям - вывозим строительный мусор</br>
-                - по желанию предоставляем ежедневный фотоотчёт</br>
-                - всегда на связи</br>
+                - соблюдаем "Закон тишины"<br>
+                - не допускаем неудобств соседям - вывозим строительный мусор<br>
+                - по желанию предоставляем ежедневный фотоотчёт<br>
+                - всегда на связи<br>
               </div>
             </li>
           </ul>
@@ -509,13 +515,13 @@
               </div>
               <div class="rewiews__photo">
                 <div class="rewiews__detil" title="Ламинат">
-                  <div class="abs abs--active">Укладка ламината</br>2 дня</br><span>300 р/м<sup>2</sup></span></div>
+                  <div class="abs abs--active">Укладка ламината<br>2 дня<br><span>300 р/м<sup>2</sup></span></div>
                 </div>
                 <div class="rewiews__detil" title="Перегородка из гипсокартона">
-                  <div class="abs">Перегородка из гипсокартона</br>1 день</br><span>300 р/м<sup>2</sup></span></div>
+                  <div class="abs">Перегородка из гипсокартона<br>1 день<br><span>300 р/м<sup>2</sup></span></div>
                 </div>
                 <div class="rewiews__detil" title="Навесной потолок">
-                  <div class="abs">Навесной потолок</br>2 дня</br><span>300 р/м<sup>2</sup></span></div>
+                  <div class="abs">Навесной потолок<br>2 дня<br><span>300 р/м<sup>2</sup></span></div>
                 </div>
               </div>
             </div>
@@ -531,13 +537,13 @@
               </div>
               <div class="rewiews__photo">
                 <div class="rewiews__detil" title="Ламинат">
-                  <div class="abs abs--active">Укладка ламината</br>2 дня</br><span>300 р/м<sup>2</sup></span></div>
+                  <div class="abs abs--active">Укладка ламината<br>2 дня<br><span>300 р/м<sup>2</sup></span></div>
                 </div>
                 <div class="rewiews__detil" title="Перегородка из гипсокартона">
-                  <div class="abs">Перегородка из гипсокартона</br>1 день</br><span>300 р/м<sup>2</sup></span></div>
+                  <div class="abs">Перегородка из гипсокартона<br>1 день<br><span>300 р/м<sup>2</sup></span></div>
                 </div>
                 <div class="rewiews__detil" title="Навесной потолок">
-                  <div class="abs">Навесной потолок</br>2 дня</br><span>300 р/м<sup>2</sup></span></div>
+                  <div class="abs">Навесной потолок<br>2 дня<br><span>300 р/м<sup>2</sup></span></div>
                 </div>
               </div>
             </div>
@@ -553,13 +559,13 @@
               </div>
               <div class="rewiews__photo">
                 <div class="rewiews__detil" title="Ламинат">
-                  <div class="abs abs--active">Укладка ламината</br>2 дня</br><span>300 р/м<sup>2</sup></span></div>
+                  <div class="abs abs--active">Укладка ламината<br>2 дня<br><span>300 р/м<sup>2</sup></span></div>
                 </div>
                 <div class="rewiews__detil" title="Перегородка из гипсокартона">
-                  <div class="abs">Перегородка из гипсокартона</br>1 день</br><span>300 р/м<sup>2</sup></span></div>
+                  <div class="abs">Перегородка из гипсокартона<br>1 день<br><span>300 р/м<sup>2</sup></span></div>
                 </div>
                 <div class="rewiews__detil" title="Навесной потолок">
-                  <div class="abs">Навесной потолок</br>2 дня</br><span>300 р/м<sup>2</sup></span>				</div>
+                  <div class="abs">Навесной потолок<br>2 дня<br><span>300 р/м<sup>2</sup></span>				</div>
                 </div>
               </div>
             </div>
